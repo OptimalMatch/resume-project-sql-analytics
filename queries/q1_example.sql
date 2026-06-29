@@ -1,0 +1,8 @@
+-- Milestone 4: one well-commented query per business question.
+-- Example question: "What were the top 5 categories by revenue last quarter?"
+-- SELECT category, SUM(amount) AS revenue
+-- FROM sales
+-- WHERE sold_at >= date_trunc('quarter', now()) - interval '1 quarter'
+-- GROUP BY category
+-- ORDER BY revenue DESC
+-- LIMIT 5;
